@@ -1,4 +1,3 @@
-'''
 import pytest
 
 
@@ -54,4 +53,3 @@ def test_int2():
 @pytest.mark.parametrize('test_input,expected', [(17, 17), (17.1, 17), ('17', 17)])
 def test_int3(test_input, expected):
     assert int_converter(test_input) == expected
-'''
